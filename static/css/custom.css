@@ -1,0 +1,19 @@
+/* Couleur principale (Titres, accents et boutons) */
+:root {
+    --primary: #2d6a4f !important;       /* Vert jungle */
+    --secondary: #1b4332 !important;     /* Vert bouteille profond */
+    --background: #f4f9f4 !important;    /* Fond blanc cassé tropical */
+    --text: #2b2d42 !important;          /* Texte terreux lisible */
+}
+
+/* Forcer la couleur des petits boutons ronds des réseaux sociaux */
+.social-icons a, .bg-primary, .btn-primary {
+    background-color: #2d6a4f !important;
+    border-color: #2d6a4f !important;
+    color: white !important;
+}
+
+/* Liens au survol */
+a:hover {
+    color: #74c69d !important;
+}
